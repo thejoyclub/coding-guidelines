@@ -36,25 +36,25 @@ Use 2 spaces rather than 4, this is particularly helpful when writing JSX which 
 ```js
 // bad
 function myFunc() {
-....const myVar = 'test123',
+....const myVar = 'test123';
 }
 
 // good
 function myFunc() {
-..const myVar = 'test123',
+..const myVar = 'test123';
 }
 ```
 
 ### Space before parenthesis
 
-Use a single space before the opening parenthesis before control statements (`if`, `while` etc).
+Use a single space before and after the parenthesis for control statements (`if`, `while` etc).
 
 ```js
 // bad
 if(someCondition){}
 
 //good
-if(someCondition) {}
+if (someCondition) {}
 ```
 
 ### Blank line after block statements
@@ -63,13 +63,13 @@ Use a new line after block statements, before the next statement
 
 ```js
 // bad
-if(someCondition) {
+if (someCondition) {
   return true;
 }
 return false;
 
 //good
-if(someCondition) {
+if (someCondition) {
   return true;
 }
 
